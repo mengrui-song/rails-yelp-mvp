@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+ // components
+@import 'components/buttons';
+@import 'components/contents';
+@import 'components/navbar';
+
+
+.link {
+  text-decoration: none;
+  color: #272626;
+}

@@ -1,0 +1,23 @@
+.one-restaurant {
+  padding: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border:solid, 1px, #272626;
+  border-radius: 2px;
+}
+
+.title a{
+  transition: .6s;
+}
+.title a:hover {
+  opacity: .8;
+  font-size: 36px;
+  transition: 0.4s;
+  color: #272626;
+}
+
+.title-box {
+  display: flex;
+  align-items: center;
+}
