@@ -8,5 +8,4 @@ class Restaurant < ApplicationRecord
   # associations
   has_many :reviews, dependent: :destroy
 
-
 end
